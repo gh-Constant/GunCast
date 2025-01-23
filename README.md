@@ -1,73 +1,39 @@
-# AW_Rojo Template
-A streamlined template for Roblox development using Rojo, providing a clean project structure with client, server, and shared code organization.
+# GunCast Module
 
-## 📋 Prerequisites
-- [Git](https://git-scm.com/downloads)
-- [Rojo](https://rojo.space/docs/installation/)
-- [Aftman](https://github.com/LPGhatguy/aftman)
-- [VS Code](https://code.visualstudio.com/) (recommended)
-- [Rojo VS Code Extension](https://marketplace.visualstudio.com/items?itemName=evaera.vscode-rojo) (recommended)
+Welcome to the GunCast module! This module is designed to handle projectiles and hitscan mechanics in Roblox games, providing features like lag compensation, wallbangs, custom hitboxes, and grenade mechanics. It's built to be easy to use and integrate into your game.
 
-## 🚀 Quick Start
+## Features
 
-1. Create a new repository using this template:
-   - Click "Use this template" at the top of the repository
-   - Or clone it directly:
-   ```bash
-   git clone https://github.com/gh-Constant/AW_rojo.git
-   cd AW_rojo
-   ```
+### ✅ Completed Features
+- **Easy to Use Interface**: The module is designed with simplicity in mind, making it easy to integrate into your game.
 
-2. Install dependencies:
-   ```bash
-   # Install Aftman packages
-   aftman install
+### 🚧 In Progress
+- **Projectiles and Hitscan**: Implementing robust systems for both projectile and hitscan weapons.
+- **Lag Compensation**: Developing methods to ensure fair gameplay by compensating for network latency.
+- **Wallbang Mechanics**: Allowing bullets to penetrate certain surfaces with reduced damage.
+- **Custom Hitboxes**: Creating customizable hitboxes for more accurate hit detection.
+- **Grenade Mechanics**: Implementing grenade physics and explosion effects.
 
-   # Install Wally packages
-   wally install
-   ```
+## Getting Started
 
-3. Start Rojo:
-   ```bash
-   rojo serve
-   ```
+To use the GunCast module in your game, follow these steps:
 
-4. Connect to Roblox Studio:
-   - Open Roblox Studio
-   - Install the Rojo plugin if you haven't already
-   - Click the Rojo button in Studio and connect to the server
+1. **Installation**: Clone the repository and place the module in your game's `ReplicatedStorage`.
+2. **Integration**: Follow the usage examples provided in the documentation to integrate the module with your weapons system.
+3. **Customization**: Adjust settings and parameters to fit your game's needs.
 
-## 📁 Project Structure
+## Contributing
 
-```
-    AW_rojo/
-    ├── src/
-    │ ├── client/ # PlayerScripts
-    │ ├── server/ # ServerScriptService
-    │ └── shared/ # ReplicatedStorage
-    ├── default.project.json
-    ├── wally.toml
-    └── aftman.toml
-```
+Contributions are welcome! If you have ideas for new features or improvements, feel free to open an issue or submit a pull request.
 
-## 📝 Usage
-
-- Place client-side code in `src/client/`
-- Place server-side code in `src/server/`
-- Place shared code (used by both client and server) in `src/shared/`
-
-## 🛠️ Development Tools
-
-- **Rojo**: Syncs your local files with Roblox Studio
-- **Wally**: Package manager for Roblox projects
-- **Aftman**: Tool manager for Roblox development
-
-## 📚 Additional Resources
-
-- [Rojo Documentation](https://rojo.space/docs)
-- [Wally Package Manager](https://wally.run/)
-- [Roblox Developer Hub](https://developer.roblox.com/)
-
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or support, please contact [Your Name] at [Your Email].
+
+---
+
+Thank you for using the GunCast module! We hope it enhances your game's shooting mechanics and provides a better experience for your players.
