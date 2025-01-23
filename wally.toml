@@ -1,0 +1,12 @@
+[package]
+name = "constant/aw-rojo"
+version = "2.0.0"
+registry = "https://github.com/UpliftGames/wally-index" 
+realm = "shared"
+
+[dependencies]
+Future = "red-blox/future@1.0.1" # Future is a library for handling asynchronous operations in Lua.
+Signal = "sleitnick/signal@2.0.1" # Signal is a library for handling events in Lua.
+Maid = "coiorevent8/maid@3.4.0" # Maid is a library for managing objects in Lua.
+Promise = "evaera/promise@4.0.0" # Promise is a library for handling asynchronous operations in Lua.
+Spring = "nightcycle/spring@1.0.0" # Spring is a library for handling animations in Lua.
